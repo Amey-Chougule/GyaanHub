@@ -583,6 +583,10 @@ body {
     
   }
 
+
+
+
+
   .department {
     padding-bottom: 50px;
     padding-top: 100px;
@@ -597,6 +601,296 @@ body {
      
 
 
+/* ==================================================
+                 NOTE'S SECTION STARTS HERE 
+     ================================================== */
+
+     .notes {
+        padding-bottom: 50px;
+        padding-top: 100px;
+    }
+    
+    .notes h1 {
+        padding: 20px;
+        font-size: 40px;
+        color: white;
+        text-align: center;
+    }
+    
+    .notes-section {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1150px;
+        margin: 0 auto;
+    }
+    
+    
+    .note {
+        background-color: #f9f9f9;
+        border-radius: 10px;
+        padding: 40px;
+        margin: 10px;
+        width: calc(50% - 20px);        /* Adjust the width based on 4 in a row layout */
+    
+    }
+    
+    .note h2 {
+        font-size: 20px;
+        text-align: center;
+        text-decoration: none;
+        margin-bottom: 10px;
+        display: block;
+        background-color: rgb(0,255,0);
+        border-radius: 5px;
+        padding: 10px 20px;
+        color: black;
+    }
+    
+    .note p {
+        text-align: center;
+        font-size: 16px;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+    
+    .download-link {
+        margin-top: 5px;
+        display: block;
+        text-align: center;
+        padding: 10px 20px;
+        background-color: #708090;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+        font-weight: 700;
+        color: white;
+    }
+    
+    .download-link:hover {
+        background-color: #0099ff;
+    }
+    
+    @media (max-width: 768px) {
+        .note {
+            width: calc(100% - 20px);
+            /* Adjust the width for 2 in a row layout on smaller screens */
+        }
+    }
+    
+    @media (max-width: 480px) {
+        .note {
+            width: calc(100% - 20px);
+            /* Adjust the width for 2 in a row layout on even smaller screens */
+        }
+    }
+    
+    @media (max-width:768px) {
+    
+        .notes {
+            padding-top: 50px;
+        }
+    
+        .notes h1 {
+            padding: 20px;
+            font-size: 30px;
+            color: white;
+            text-align: center;
+        }
+    }
+    
+    /* ==================================================
+                     QP's SECTION STARTS HERE 
+         ================================================== */
+    
+        .qps {
+            padding-bottom: 50px;
+            padding-top: 100px;
+        }
+        
+        .qps h1 {
+            padding: 20px;
+            font-size: 40px;
+            color: white;
+            text-align: center;
+        }
+        
+        .qps-section {
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 1150px;
+            margin: 0 auto;
+        }
+        
+        .qp {
+            background-color: #ffffff;
+            border-radius: 10px;
+            padding: 40px;
+            margin: 10px;
+            width: calc(25% - 20px);        /* Adjust the width based on 4 in a row layout */
+        
+        }
+        
+        .qp h2 {
+            font-size: 20px;
+            text-align: center;
+            text-decoration: none;
+            margin-bottom: 10px;
+            display: block;
+            background-color: #ff0000;
+            border-radius: 5px;
+            padding: 10px 20px;
+        }
+        
+        .qp p {
+            text-align: center;
+            font-size: 16px;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        
+        .qp-download-link {
+            display: block;
+            text-align: center;
+            padding: 10px 20px;
+            background-color: #2f73b8;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            font-weight: 700;
+            color: white;
+        }
+        
+        .qp-download-link:hover {
+            background-color: #0099ff;
+        }
+        
+        @media (max-width: 768px) {
+            .qp {
+                width: calc(100% - 20px);
+                /* Adjust the width for 2 in a row layout on smaller screens */
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .qp {
+                width: calc(100% - 20px);
+                /* Adjust the width for 2 in a row layout on even smaller screens */
+            }
+        }
+        
+        @media (max-width:768px) {
+        
+            .qps {
+                padding-top: 50px;
+            }
+        
+            .qps h1 {
+                padding: 20px;
+                font-size: 30px;
+                color: white;
+                text-align: center;
+            }
+        }
+    
+    /* ==================================================
+                     PROJECT'S SECTION STARTS HERE 
+         ================================================== */
+    
+       .projects {
+          padding-bottom: 50px;
+          padding-top: 100px;
+      }
+      
+      .projects h1 {
+          padding: 20px;
+          font-size: 40px;
+          color: rgb(255, 255, 255);
+          text-align: center;
+      }
+      
+      .projects-section {
+          display: flex;
+          flex-wrap: wrap;
+          max-width: 1150px;
+          margin: 0 auto;
+      }
+      
+      .project {
+          background-color: #f9f9f9;
+          border-radius: 10px;
+          padding: 40px;
+          margin: 10px;
+          width: calc(25% - 20px);        /* Adjust the width based on 4 in a row layout */
+      
+      }
+      
+      .project h2 {
+          font-size: 20px;
+          text-align: center;
+          text-decoration: none;
+          margin-bottom: 10px;
+          display: block;
+          background-color: #FFFF33;
+          border-radius: 5px;
+          padding: 10px 20px;
+          color: rgb(0, 0, 0);
+      }
+      
+      .project p {
+          text-align: center;
+          font-size: 16px;
+          margin-bottom: 10px;
+          font-weight: bold;
+      }
+      
+      .project-download-link {
+          display: block;
+          text-align: center;
+          padding: 10px 20px;
+          background-color: #708090 ;
+          color: #000;
+          text-decoration: none;
+          border-radius: 5px;
+          transition: background-color 0.3s;
+          font-weight: 700;
+          color: white;
+      }
+      
+      .project-download-link:hover {
+        background-color: #0099ff;
+    
+      }
+      
+      @media (max-width: 768px) {
+          .project {
+              width: calc(100% - 20px);
+              /* Adjust the width for 2 in a row layout on smaller screens */
+          }
+      }
+      
+      @media (max-width: 480px) {
+          .project {
+              width: calc(100% - 20px);
+              /* Adjust the width for 2 in a row layout on even smaller screens */
+          }
+      }
+      
+      @media (max-width:768px) {
+      
+          .projects {
+              padding-top: 50px;
+          }
+      
+          .projects h1 {
+              padding: 20px;
+              font-size: 30px;
+              color: white;
+              text-align: center;
+          }
+      }
+    
 /* ==================================================
                  CONTACT SECTION STARTS HERE 
      ================================================== */
